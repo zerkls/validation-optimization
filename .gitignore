@@ -1,0 +1,33 @@
+# Data files 
+data/*.json
+data/*.csv
+data/*.xlsx
+!data/README.md
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Optuna storage
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS garbage
+.DS_Store
+Thumbs.db
